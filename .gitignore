@@ -1,1 +1,8 @@
 node_modules
+.nuxt/nuxt.json
+.nuxt/tsconfig.json
+.nuxt/dev/index.mjs
+.nuxt/dev/index.mjs.map
+.nuxt/dist/server/client.manifest.json
+.nuxt/dist/server/client.manifest.mjs
+.nuxt/dist/server/server.mjs

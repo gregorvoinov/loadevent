@@ -8,14 +8,17 @@
     <img
         src="/images/img1.jpg"
         @load="onload"
-        @error="onLoad"
+        @error="onLoadLocal"
         style="width: 50%"
     />
   </div>
 </template>
 
 <script setup>
-const onLoad = (e) => {
-  console.log('looooaded', e);
-};
+  const onLoad = (e) => {
+    console.log('looooaded', e);
+  }
+  const onLoadLocal = (e) => {
+    console.log('looooaded local', e);
+  }
 </script>
