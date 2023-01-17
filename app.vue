@@ -7,8 +7,7 @@
     />
     <img
         src="/images/img1.jpg"
-        @load="onload"
-        @error="onLoadLocal"
+        @load="onLoadLocal"
         style="width: 50%"
     />
   </div>
