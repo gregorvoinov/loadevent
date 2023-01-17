@@ -5,6 +5,12 @@
       @load="onLoad"
       style="width: 50%"
     />
+    <img
+        src="/images/img1.jpg"
+        @load="onload"
+        @error="onLoad"
+        style="width: 50%"
+    />
   </div>
 </template>
 
