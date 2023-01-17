@@ -1,5 +1,15 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <img
+      src="https://nuxt.studio/landing.png"
+      @load="onLoad"
+      style="width: 50%"
+    />
   </div>
 </template>
+
+<script setup>
+const onLoad = (e) => {
+  console.log('looooaded', e);
+};
+</script>
